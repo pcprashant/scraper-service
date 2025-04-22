@@ -1,0 +1,22 @@
+{
+  "name": "scraper-service",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "NODE_ENV=development node src/index.js",
+    "lint": "eslint src/",
+    "test": "echo \"No tests configured\""
+  },
+  "dependencies": {
+    "kafkajs": "^2.3.2",
+    "prom-client": "^15.0.1",
+    "puppeteer": "^22.8.2",
+    "puppeteer-cluster": "^0.24.0",
+    "puppeteer-extra": "^4.2.1",
+    "puppeteer-extra-plugin-stealth": "^2.12.0",
+    "pino": "^9.2.2",
+    "uuid": "^9.0.1",
+    "fastify": "^4.27.2"
+  }
+} 
